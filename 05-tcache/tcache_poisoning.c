@@ -30,7 +30,7 @@ int main(int argc, const char* argv[]) {
 
     *chunksizep(mem) = 0x41414141;
     victim->next = (void *)target; 
-    printf("Now we need to make to make two requests for the appropriate size " \
+    printf("Now we need to make two requests for the appropriate size " \
             "so that malloc returns a chunk overlapping our target\n");
     void *mem1 = malloc(0x48);
     void *mem2 = malloc(0x48);
