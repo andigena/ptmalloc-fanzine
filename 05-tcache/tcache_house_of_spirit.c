@@ -25,7 +25,7 @@ typedef struct malloc_chunk* mchunkptr;
 int main(int argc, const char* argv[]) {
     size_t fake_chunk_and_more[64];
     
-    printf("This example showcases how the House of Spirite became more powerful " \
+    printf("This example showcases how the House of Spirit became more powerful " \
             " after the tcache patch\n");
 
     printf("Filling space at and after the fake chunk with invalid data\n");
