@@ -1,4 +1,4 @@
-PROGRAMS = tcache_poisoning overlapping_chunks_by_caching tcache_house_of_spirit
+PROGRAMS = tcache_poisoning overlapping_chunks_by_caching tcache_house_of_spirit tcache_dup
 CFLAGS += -Wpedantic -std=gnu11 -g 
 
 all: $(PROGRAMS)
